@@ -1,6 +1,13 @@
 #!/usr/bin/ruby
 class HelloWorld
-	def  hello
-		puts "hello"
+	def hello(*name)
+		if name.size == 0
+			puts "hello"
+		else
+			puts "hello "+name[0]
+		end
 	end
 end
+
+hello = HelloWorld.new
+hello.hello("charly")
