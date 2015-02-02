@@ -1,2 +1,6 @@
 #!/usr/bin/ruby
-puts "hello"
+class HelloWorld
+	def  hello
+		puts "hello"
+	end
+end
