@@ -11,3 +11,5 @@ end
 
 hello = HelloWorld.new
 hello.hello("charly")
+hello.hello
+hello.hello("merly")
