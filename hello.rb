@@ -13,3 +13,4 @@ hello = HelloWorld.new
 hello.hello("charly")
 hello.hello
 hello.hello("merly")
+hello.hello("Hello world from ruby")
