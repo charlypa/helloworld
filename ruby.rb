@@ -1,5 +1,5 @@
 #!/usr/bin/ruby
-class HelloWorld
+class HiWorld
 	def hello(*name)
 		if name.size == 0
 			puts "hello"
@@ -9,7 +9,7 @@ class HelloWorld
 	end
 end
 
-hello = HelloWorld.new
+hello = HiWorld.new
 hello.hello("charly")
 hello.hello
 hello.hello("merly")
